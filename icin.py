@@ -1,6 +1,6 @@
 
 """
-Autor: Tomasz Głuc
+Autor: id3at
 Program Wrozby Icing
 """
 import random
