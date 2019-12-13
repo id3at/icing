@@ -8,7 +8,6 @@ import time
 
                          #Zmienne
 WROZBA = []                           #zmienna wrozby
-H = {}                                #zmienna slownika wrozby
 HEKSAGRAMY = {('---', '---', '---', '---', '---', '---'): 1,
               ('- -', '- -', '- -', '- -', '- -', '- -'): 2,
               ('- -', '---', '- -', '- -', '- -', '---'): 3,
@@ -107,7 +106,6 @@ while X != 6:        #petla printujaca wylosowany heksagram
 print("*"*20)
 
 
-H = {str(WROZBA): '1'}     # tworzenie slownika wrozby
 print("*", "Heksagram nr:", HEKSAGRAMY.get(tuple(WROZBA)), "*", "\n")  #wartosc klucza slownika heksagramy
 
 NUM = int(HEKSAGRAMY.get(tuple(WROZBA)))
